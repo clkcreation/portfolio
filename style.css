@@ -71,7 +71,7 @@ section{
     border-radius: 1.5rem;
     display: inline-block;
     border: none;
-    background: black;
+    background:green;
     padding: .8rem 2rem;
     cursor: pointer;
 }
@@ -256,6 +256,9 @@ header #menubars{
     padding: 2rem 0;
     color:rgb(3, 77, 21) ;
 }
+
+
+
 .services .box-container .box h3 {
     font-size: 2.5rem;
     padding: 1rem 0;
@@ -309,6 +312,51 @@ header #menubars{
 .foorer .copyright p{
     
     color: black;
+}
+
+.box strong{
+    font-size: 24px;
+    font-weight: 900;
+}
+.snot{
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+ 
+.box-page{
+    flex: 1 1 30rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    padding: 2rem;
+    text-align: left;
+    box-shadow: 0 .5rem 1rem rgba(8, 206, 90, 0.1);
+    font-size: 19px;
+
+}
+
+.text-3{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 19px 0;
+}
+.box-page p{
+    font-size: 14px;
+    padding: 0 35px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.box-page li{
+    list-style: none;
+    font-size: 16px;
+    padding: 0 35px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.buy{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 18px;
 }
 
 
@@ -391,6 +439,7 @@ header #menubars{
     .about .row .text2 p{
         text-align: left;
     }
+ 
 }
 @media (max-width:450px){
     html{
